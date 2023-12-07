@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Anuphan&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Berkshire+Swash&family=Black+Ops+One&family=Bonbon&family=Henny+Penny&family=Inter:wght@700&family=Josefin+Sans&family=Kablammo&family=Lobster&family=Luckiest+Guy&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Righteous&family=Roboto&family=Rubik+Maze&family=Shantell+Sans&family=Snowburst+One&family=Stick+No+Bills&family=Tapestry&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif ;
+}
+
+body {
+ height: 300vh;
+ width: 100vw;
+}
+
+/* Homepage............ */
+.app {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+/* navbar............ */  
+.nav {
+    height: 80px;
+    width: 80%;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+
+.navBtn {
+    background-color: transparent;
+}
+.logo {
+    color: green;
+}
+.mainDiv {
+    height: 400px; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    justify-items: center;
+   
+}
+.sloganDiv{
+    
+    height: 200px;
+    width: 30%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}  
+
+.sloganimageDiv{
+    background-image: url(https://www.riversports.com/cdn/shop/files/littlekidslevel1.jpg?v=1693328563);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 65%;
+    border-top-left-radius: 400px;
+    
+}
+
+.sloganText {
+    margin: 20px;
+}
+.bookAtripBtn{
+    background: linear-gradient(to right,green, rgb(236, 206, 10)) ;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.missionDiv {
+    height: 200px;
+    width: 50%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    justify-items: center;
+
+}
+
+.missionimageDiv {
+    background-image: url(https://www.touropia.com/gfx/d/lakes-in-switzerland/lake_thun.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.learnMoreDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.learnMoreBtn{
+    background: linear-gradient(to right,green, rgb(236, 206, 10)) ;
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.learnMoreText {
+    margin-top: 5px;
+}
+
+.specialDiv{
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.specialWrapper{
+    height: 400px; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.special{
+    height: 100px;
+    width: 23%
+}
+.specialHeading{
+    font-weight: bold;      
+}
+.specialText{
+    margin-top: 15px;
+}
+.specialImage{
+    background-image: url(https://thumbs.dreamstime.com/z/kids-park-cute-little-playing-52550384.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
+    
+    margin-top: 100px;
+}
+
+
+  
