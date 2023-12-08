@@ -28,24 +28,24 @@ function Home() {
                 <h2>WHAT MAKES TRIPS SPECIAL</h2>
                 <div className="specialWrapper">
               <div className="special">
-                <div className="specialImage"></div>
+                <div id="specialImage1" className="specialImage"></div>
                 <h3 className="specialHeading">FRIENDSHIP</h3>
-                <p className="specialText">Lorem  hic sapiente sit harum asperiores l</p>
+                <p className="specialText">Shared adventures form lasting bonds and create unforgettable memories</p>
               </div>
               <div className="special">
-                <div className="specialImage"></div>
+                <div id="specialImage2" className="specialImage"></div>
                 <h3 className="specialHeading">NATURE</h3>
-                <p className="specialText"> accusamus, t nulla hic sapiente sit harum asperiores  </p>
+                <p className="specialText">An outdoor experience that fosters a deep appreciation for the environment  </p>
               </div>
               <div className="special">
-                <div className="specialImage"></div>
+                <div id="specialImage3" className="specialImage"></div>
                 <h3 className="specialHeading">LIFE SKILLS</h3>
-                <p className="specialText">Lorem  n harum asperiores libero reiciendis </p>
+                <p className="specialText">Learn teamwork, communication, and resilience through kayaking challenges </p>
               </div>
               <div className="special">
-                <div className="specialImage"></div>
+                <div id="specialImage4" className="specialImage"></div>
                 <h3 className="specialHeading">CONFIDENCE</h3>
-                <p className="specialText">Lor hic sapiente sit harum asperiores lib </p>
+                <p className="specialText">Master kayaking to boost self-trust and readiness to tackle new adventures </p>
               </div>
               </div>
             </div>

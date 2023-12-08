@@ -37,8 +37,26 @@ body {
     background-color: transparent;
 }
 .logo {
-    color: green;
+    color: rgb(3, 142, 152);
 }
+.logoDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center; 
+}
+.logoImage{
+    background-image: url(https://thumbs.dreamstime.com/b/rowing-race-boat-one-person-kayak-ride-icon-blue-water-vector-illustration-canoe-paddle-sport-paddles-cartoon-kids-152056006.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+     
+}
+
 .mainDiv {
     height: 400px; 
     display: flex;
@@ -62,7 +80,7 @@ body {
 }  
 
 .sloganimageDiv{
-    background-image: url(https://www.riversports.com/cdn/shop/files/littlekidslevel1.jpg?v=1693328563);
+    background-image: url(https://cdn.vectorstock.com/i/preview-2x/34/35/canoe-boy-background-vector-1043435.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +94,7 @@ body {
     margin: 20px;
 }
 .bookAtripBtn{
-    background: linear-gradient(to right,green, rgb(236, 206, 10)) ;
+    background: linear-gradient(to right,rgb(71, 195, 236), rgb(236, 206, 10)) ;
     color: white;
     padding: 15px;
     margin-top: 20px;
@@ -97,7 +115,7 @@ body {
 }
 
 .missionimageDiv {
-    background-image: url(https://www.touropia.com/gfx/d/lakes-in-switzerland/lake_thun.jpg) ;
+    background-image: url(https://img.freepik.com/premium-photo/flat-2d-illustration-kid_759095-114632.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +132,7 @@ body {
     justify-items: center;
 }
 .learnMoreBtn{
-    background: linear-gradient(to right,green, rgb(236, 206, 10)) ;
+    background: linear-gradient(to right,rgb(71, 195, 236), rgb(236, 206, 10)) ;
     color: white;
     padding: 12px;
     border-radius: 30px;
@@ -137,9 +155,10 @@ body {
     height: 400px; 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     justify-items: center;
+    width: 100%;
 }
 
 .special{
@@ -153,15 +172,28 @@ body {
     margin-top: 15px;
 }
 .specialImage{
-    background-image: url(https://thumbs.dreamstime.com/z/kids-park-cute-little-playing-52550384.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
     width: 100px;
+    border-radius: 10px;
     margin-bottom: 15px;
     
     margin-top: 100px;
+}
+
+#specialImage1{
+    background-image: url(https://img.freepik.com/premium-photo/2d-elementary-school-kids-cartoon-vector-clip-art_300636-1427.jpg);
+}
+#specialImage2{
+    background-image: url(https://storage.prompt-hunt.workers.dev/clhg99yj6000cme08dpsuaey6_1);
+}
+#specialImage3{
+    background-image: url(https://img.freepik.com/free-vector/children-playing-park_1308-82121.jpg?w=360);
+}
+#specialImage4{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*QF73Z8ZFZ7yt-MfgySxLNQ.png);
 }
 
 
