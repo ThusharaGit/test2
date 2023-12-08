@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom"
+
 function Home() {
+  const navigate = useNavigate()
 
   return (
     <div className='app'>
@@ -6,7 +9,7 @@ function Home() {
         <div className="sloganDiv">
           <h2 className="sloganText">EMPOWERING YOUTH</h2>
           <p>... one paddle at a time!</p>
-          <button className="bookAtripBtn">BOOK A TRIP</button>
+          <button className="bookAtripBtn" onClick={() => navigate('Contact')}>BOOK A TRIP</button>
         </div>
         <div className="sloganimageDiv"></div>
       </div>
@@ -18,7 +21,7 @@ function Home() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, laboriosam commodi nemo harum totam consequuntur odit odio illum soluta quisquam similique voluptate ratione cumque dolor aperiam dolorum necessitatibus distinctio! Harum!</p>
           <div className="learnMoreDiv">
             <h2 className="learnMoreText">LEARN MORE</h2>
-            <button className="learnMoreBtn">go</button>
+            <button className="learnMoreBtn" onClick={() => navigate('About')}>go</button>
           </div>
         </div>
 

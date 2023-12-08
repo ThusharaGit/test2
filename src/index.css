@@ -20,6 +20,12 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+button:hover {
+    color: rgb(112, 189, 208);
+    background-image: none;
+    box-shadow: rgb(243, 228, 22) 1px 1px 20px;
+}
  
 /* navbar............ */  
 .nav {
@@ -35,6 +41,8 @@ body {
 
 .navBtn {
     background-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
 }
 .logo {
     color: rgb(3, 142, 152);
@@ -155,14 +163,15 @@ body {
     height: 300px; 
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     justify-items: center;
     width: 100%;
+   
 }
 
 .special{
-    width: 23%
+    width: 20%
 }
 .specialHeading{
     font-weight: bold;      
