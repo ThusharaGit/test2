@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import Carausel from "./Carousel"
 
 function Home() {
   const navigate = useNavigate()
@@ -51,6 +52,14 @@ function Home() {
             <p className="specialText">Master kayaking to boost self-trust and readiness to tackle new adventures </p>
           </div>
         </div>
+      </div>
+
+      <div style={{ maxWidth: 1200, marginLeft: 'auto' , marginRight: 'auto' , marginTop: 64}}>
+        <Carausel>
+          <img src="https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?cs=srgb&dl=pexels-inge-wallumr%C3%B8d-126407.jpg&fm=jpg" alt="" />
+          <img src="https://tractive.com/blog/wp-content/uploads/2021/11/section_image_cat_hunting_02.jpg" alt="" />
+          <img src="https://www.dailypaws.com/thmb/EI9JG7yhsQRB_Vy98q639tIzuzY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cat-green-eyes-1163267941-2000-7a2e68c4b2e34bd2b31573ce017f0583.jpg" alt="" />
+        </Carausel>
       </div>
     </div>
   )
