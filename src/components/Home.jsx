@@ -1,3 +1,4 @@
+import './Home.css'
 import { useNavigate } from "react-router-dom"
 import Carausel from "./Carousel"
 
@@ -60,6 +61,24 @@ function Home() {
           <img src="https://tractive.com/blog/wp-content/uploads/2021/11/section_image_cat_hunting_02.jpg" alt="" />
           <img src="https://www.dailypaws.com/thmb/EI9JG7yhsQRB_Vy98q639tIzuzY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cat-green-eyes-1163267941-2000-7a2e68c4b2e34bd2b31573ce017f0583.jpg" alt="" />
         </Carausel>
+
+      </div>
+      <div className='comments'>
+        <h2>WHAT PARENTS SAY ABOUT OUR PROJECT:</h2>
+      <div className='comments_div'>
+       <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis quasi nisi, cupiditate necessitatibus blanditiis facere aperiam delectus dicta hic ab maiores. Expedita perspiciatis veniam officiis a deserunt iure dolores.</h4> 
+       <div className='all_circles'>
+        <div className='circle'></div>
+        <div className='circle'></div>
+        <div className='circle'></div>
+        <div className='circle'></div>
+       </div>
+      </div>
+      <h2><span className='new'>NEW</span> TRIPS ARE COMING!</h2>
+      <div className='trips_coming_text'>
+      <h4>Ready to embark on an unforgettable adventure? </h4>
+      <h4>Contact us today to book your child's spot on our next kayaking journey.</h4>
+      </div>
       </div>
     </div>
   )
