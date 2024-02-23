@@ -8,6 +8,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Trips from './components/Trips'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Route path= 'Trips' element= {<Trips/>}/>
       <Route path= 'Contact' element= {<Contact/>}/>
      </Routes>
+     <Footer/>
     </div>
   )
 }

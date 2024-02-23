@@ -1,0 +1,82 @@
+.footer_container {
+    width: 100%;
+    height: 474px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(1, 23, 7, 0.801);
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+
+a{
+color: white;
+}
+
+.left{
+    width: 25%;
+    height: 474px;  
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.left_texts{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.middle{
+    width: 50%;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.middle_box{
+    background-image: linear-gradient(rgb(128, 131, 128),transparent);
+    height: 180px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.school_name{
+    font-size:larger;  
+    
+}
+.right{
+    width: 25%;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.right_box{
+    height: 250px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column; 
+}
