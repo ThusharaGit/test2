@@ -2,7 +2,7 @@ import './Home.css'
 import { useNavigate } from "react-router-dom"
 import Carausel from "./Carousel"
 
-function Home() {
+function Home({parentsComments}) {
   const navigate = useNavigate()
 
   return (
@@ -67,12 +67,13 @@ function Home() {
         <div className='heading_and_comments'>
         <h2 className='comments_heading'>WHAT PARENTS SAY ABOUT OUR PROJECT:</h2>
         <div className='comments_div'>
-          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis quasi nisi, cupiditate necessitatibus blanditiis facere aperiam delectus dicta hic ab maiores. Expedita perspiciatis veniam officiis a deserunt iure dolores.</h4>
+          <h4>{parentsComments[0].desc}</h4>
+          <h4>{parentsComments[0].name}</h4>
           <div className='all_circles'>
-            <div className='circle'></div>
-            <div className='circle'></div>
-            <div className='circle'></div>
-            <div className='circle'></div>
+            <button className='circle'></button>
+            <button className='circle'></button>
+            <button className='circle'></button>
+            <button className='circle'></button>
           </div>
         </div>
         </div>

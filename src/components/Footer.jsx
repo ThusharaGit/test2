@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
  
     return (
-      <div className='app'>
+      <div>
        <div className='footer_container'>
        <div className="logoImage_footer"></div>
         <div className='left'>
