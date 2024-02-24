@@ -17,23 +17,31 @@
        border-radius: 10px;
        text-align: left;
        padding: 30px;
+       justify-content: center;
+       justify-items: center;
+       align-items: center;
     }
     .all_circles{
        display: flex; 
        flex-direction: row;
        justify-content: space-around;
-       align-items: center;
        justify-items: center;
-       width: 50%;
-       padding: 10px;
+       align-items: center;
+       width: 75%;
+       height: 30px;
     }
     .circle{
         height: 15px;
         width: 15px;
         border-radius: 50%;
-        background-color: white;
-        
-        
+        background-color: white;   
+    }
+    .heading_and_comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
     .new{
         color:rgb(96, 214, 96) ;
@@ -44,7 +52,58 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .heading_and_comments{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .comments_div{
+        height: 210px; 
+        width: 40%;
+        background-image: linear-gradient(rgb(96, 214, 96), rgb(216, 185, 82));
+        border-radius: 10px;
+        text-align: left;
+        padding: 30px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+     }
+    .comments_heading{
+        width: 30%;
+        font-size: 2em;
+     }
+     .all_circles{
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        width: 75%;
+        height: 30px;
+     }
+     .circle{
+         height: 15px;
+         width: 15px;
+         border-radius: 50%;
+         background-color: white;   
+     }
+     .trips_coming_heading{
+        font-size: 2em;
+        text-align: center;
+     }
+     .new{
+        color:rgb(96, 214, 96) ;
+    }
+    .trips_coming_text{
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}

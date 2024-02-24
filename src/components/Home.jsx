@@ -55,7 +55,7 @@ function Home() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1200, marginLeft: 'auto' , marginRight: 'auto' , marginTop: 64}}>
+      <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
         <Carausel>
           <img src="https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?cs=srgb&dl=pexels-inge-wallumr%C3%B8d-126407.jpg&fm=jpg" alt="" />
           <img src="https://tractive.com/blog/wp-content/uploads/2021/11/section_image_cat_hunting_02.jpg" alt="" />
@@ -64,21 +64,23 @@ function Home() {
 
       </div>
       <div className='comments'>
-        <h2>WHAT PARENTS SAY ABOUT OUR PROJECT:</h2>
-      <div className='comments_div'>
-       <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis quasi nisi, cupiditate necessitatibus blanditiis facere aperiam delectus dicta hic ab maiores. Expedita perspiciatis veniam officiis a deserunt iure dolores.</h4> 
-       <div className='all_circles'>
-        <div className='circle'></div>
-        <div className='circle'></div>
-        <div className='circle'></div>
-        <div className='circle'></div>
-       </div>
-      </div>
-      <h2><span className='new'>NEW</span> TRIPS ARE COMING!</h2>
-      <div className='trips_coming_text'>
-      <h4>Ready to embark on an unforgettable adventure? </h4>
-      <h4>Contact us today to book your child's spot on our next kayaking journey.</h4>
-      </div>
+        <div className='heading_and_comments'>
+        <h2 className='comments_heading'>WHAT PARENTS SAY ABOUT OUR PROJECT:</h2>
+        <div className='comments_div'>
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis quasi nisi, cupiditate necessitatibus blanditiis facere aperiam delectus dicta hic ab maiores. Expedita perspiciatis veniam officiis a deserunt iure dolores.</h4>
+          <div className='all_circles'>
+            <div className='circle'></div>
+            <div className='circle'></div>
+            <div className='circle'></div>
+            <div className='circle'></div>
+          </div>
+        </div>
+        </div>
+        <h2 className='trips_coming_heading'><span className='new'>NEW</span> TRIPS ARE COMING!</h2>
+        <div className='trips_coming_text'>
+          <h4>Ready to embark on an unforgettable adventure? </h4>
+          <h4>Contact us today to book your child's spot on our next kayaking journey.</h4>
+        </div>
       </div>
     </div>
   )
