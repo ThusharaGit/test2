@@ -1,11 +1,11 @@
 import './Header.css'
 
-function Header({headerComponents}) {
+function Header({headerComponents, pageNo}) {
  
     return (
       <div className='header_group'>
-       <div className='header_all'style={{backgroundImage: `url(${headerComponents[0].Picture})`}}>
-        <h1 className='header_text'>{headerComponents[0].Heading}</h1>
+       <div className='header_all' style={{backgroundImage: `url(${headerComponents[pageNo].Picture})`}}>
+        <h1 className= 'header_text'>{headerComponents[pageNo].Heading}</h1>  
        </div>
       </div>
     )

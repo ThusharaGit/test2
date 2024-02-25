@@ -83,6 +83,7 @@ function Home({parentsComments}) {
           <h4>Contact us today to book your child's spot on our next kayaking journey.</h4>
         </div>
       </div>
+      
     </div>
   )
 }

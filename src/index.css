@@ -204,5 +204,12 @@ button:hover {
     background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*QF73Z8ZFZ7yt-MfgySxLNQ.png);
 }
 
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
 
   

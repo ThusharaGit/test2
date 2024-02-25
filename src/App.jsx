@@ -12,18 +12,20 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
+
+
+
 function App() {
- 
+  
   return (
     <div className='app'>
      <Nav/>
-     <Header headerComponents={data.headerComponents}/>
      <Routes>
      <Route path= '/' element= {<Home parentsComments={data.parentsComents}/>}/>
-      <Route path= 'FAQs' element= {<FAQs/>}/>
-      <Route path= 'About' element= {<About/>}/>
-      <Route path= 'Trips' element= {<Trips/>}/>
-      <Route path= 'Contact' element= {<Contact/>}/>
+      <Route path= 'FAQs' element= {<FAQs headerComponents= {data.headerComponents}/>}/>
+      <Route path= 'About' element= {<About headerComponents= {data.headerComponents}/>}/>
+      <Route path= 'Trips' element= {<Trips headerComponents= {data.headerComponents}/>}/>
+      <Route path= 'Contact' element= {<Contact headerComponents= {data.headerComponents}/>}/>
      </Routes>
      <Footer/>
     </div>
