@@ -15,6 +15,7 @@ function Nav() {
             <button className="navBtn" onClick={() => navigate('Trips')}>TOURS</button>
             <button className="navBtn" onClick={() => navigate('FAQs')}>FAQs</button>
             <button className="navBtn" onClick={() => navigate('Contact')}>CONTACT</button>
+            <button className="navBtn" onClick={() => navigate('Contact2')}>CONTACT2</button>
 
         </div>
 
