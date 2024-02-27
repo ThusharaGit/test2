@@ -41,7 +41,7 @@
         padding-bottom: 25px; 
     }
     .trophy_image{
-        height: 100px;
+        height: 120px;
         width: 30%;
         background-image: url(https://www.shutterstock.com/image-vector/realistic-golden-trophy-gold-laurel-600nw-571877101.jpg);
         background-position: center;
@@ -175,7 +175,7 @@
         padding: 20px;
     }
     .partners_main_image{
-        height: 120px;
+        height: 200px;
         width: 50%;
         background-image: url(https://i.pinimg.com/736x/1d/d0/18/1dd01864fc7dd115a4550aa55892867a.jpg);
         background-position: center;
@@ -293,8 +293,8 @@
         padding-bottom: 25px;
     }
     .trophy_image{
-        height: 250px;
-        width: 20%;
+        height: 300px;
+        width: 30%;
         background-image: url(https://www.shutterstock.com/image-vector/realistic-golden-trophy-gold-laurel-600nw-571877101.jpg);
         background-position: center;
         background-size: cover;
@@ -521,7 +521,33 @@
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .trophy_image{
+        height: 350px;
+        width: 30%;
+        padding-bottom: 25px;
+    }
+    .meet_team_image{
+        height: 350px;
+        width: 20%;
+        padding-bottom: 30px;
+
+    }
+    .partners_main_image{
+        height: 400px;
+        width: 40%;
+        padding-bottom: 30px;
+
+    }
+    .partners_logo{
+        height: 250px;
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

@@ -9,7 +9,7 @@
 }
 
 body {
- height: 300vh;
+ height: 500vh;
  width: 100vw;
 }
 
@@ -45,17 +45,20 @@ button:hover {
     border-radius: 15px;
 }
 .logo {
-    color: rgb(3, 142, 152);
+    /* color: rgb(3, 142, 152); */
+    color: green;
 }
 .logoDiv{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    justify-items: center; 
+    justify-items: center;
+    font-size: 1.3em; 
 }
 .logoImage{
-    background-image: url(https://thumbs.dreamstime.com/b/rowing-race-boat-one-person-kayak-ride-icon-blue-water-vector-illustration-canoe-paddle-sport-paddles-cartoon-kids-152056006.jpg) ;
+    /* background-image: url(https://thumbs.dreamstime.com/b/rowing-race-boat-one-person-kayak-ride-icon-blue-water-vector-illustration-canoe-paddle-sport-paddles-cartoon-kids-152056006.jpg) ; */
+    background-image: url(https://thumbs.dreamstime.com/b/canoe-icon-gradient-green-colour-sport-symbol-illustration-vector-element-perfect-289299406.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +91,9 @@ button:hover {
 }  
 
 .sloganimageDiv{
-    background-image: url(https://cdn.vectorstock.com/i/preview-2x/34/35/canoe-boy-background-vector-1043435.webp);
+    /* background-image: url(https://cdn.vectorstock.com/i/preview-2x/34/35/canoe-boy-background-vector-1043435.webp); */
+    /* background-image: url(https://png.pngtree.com/background/20230528/original/pngtree-beautiful-shot-of-kayak-in-a-narrow-body-of-water-picture-image_2778846.jpg); */
+    background-image: url(https://t3.ftcdn.net/jpg/06/22/82/38/360_F_622823841_O9TgQvj1XY3HRLZz1Zs1WSrg3FGS7D8k.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +107,7 @@ button:hover {
     margin: 20px;
 }
 .bookAtripBtn{
-    background: linear-gradient(to right,rgb(71, 195, 236), rgb(236, 206, 10)) ;
+    background: linear-gradient(to right,rgb(82, 180, 89), rgb(217, 200, 93)) ;
     color: white;
     padding: 15px;
     margin-top: 20px;
@@ -123,7 +128,7 @@ button:hover {
 }
 
 .missionimageDiv {
-    background-image: url(https://img.freepik.com/premium-photo/flat-2d-illustration-kid_759095-114632.jpg) ;
+    background-image: url(https://i.redd.it/jmq7wtto7ncz.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +145,7 @@ button:hover {
     justify-items: center;
 }
 .learnMoreBtn{
-    background: linear-gradient(to right,rgb(71, 195, 236), rgb(236, 206, 10)) ;
+    background: linear-gradient(to right,rgb(82, 180, 89), rgb(217, 200, 93)) ;
     color: white;
     padding: 12px;
     border-radius: 30px;
