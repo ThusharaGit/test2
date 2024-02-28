@@ -1,3 +1,4 @@
+import './Nav.css'
 import { useNavigate } from "react-router-dom"
 function Nav() {
     const navigate = useNavigate()
@@ -14,9 +15,11 @@ function Nav() {
             <button className="navBtn" onClick={() => navigate('About')}>ABOUT</button>
             <button className="navBtn" onClick={() => navigate('Trips')}>TOURS</button>
             <button className="navBtn" onClick={() => navigate('FAQs')}>FAQs</button>
+
+            <div classname="contact_button_set">
             <button className="navBtn" onClick={() => navigate('Contact')}>CONTACT</button>
             <button className="navBtn" onClick={() => navigate('Contact2')}>CONTACT2</button>
-
+            </div>
         </div>
 
     )

@@ -9,7 +9,7 @@ function Home({parentsComments}) {
     <div className='app'>
       <div className="mainDiv ">
         <div className="sloganDiv">
-          <h2 className="sloganText">EMPOWERING YOUTH</h2>
+          <h2 className="sloganText ">EMPOWERING YOUTH</h2>
           <p className='slogan_para'>... one paddle at a time!</p>
           <button className="bookAtripBtn home_large" onClick={() => navigate('Contact')}>BOOK A TRIP</button>
         </div>
@@ -21,6 +21,7 @@ function Home({parentsComments}) {
 
       <div className="mainDiv ">
         <div className="missionimageDiv"></div>
+        <div className='back_mission_image'></div>
         <div className="missionDiv">
           <h2 className="missionText">OUR MISSION</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, laboriosam commodi nemo harum totam consequuntur odit odio illum soluta quisquam similique voluptate ratione cumque dolor aperiam dolorum necessitatibus distinctio! Harum!</p>
@@ -103,9 +104,11 @@ function Home({parentsComments}) {
           <h4>Contact us today to book your child's spot on our next kayaking journey.</h4>
         </div>
 
+        <div className='return_element'>
         <div className='return_set '>
         <p className='retutn_text'>Return to the top</p>
         <div className='return_btn'>Go</div>
+        </div>
         </div>
        
       </div>

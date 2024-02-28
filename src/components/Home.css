@@ -78,6 +78,20 @@
         margin-top: 20px;
        
     }
+    .back_mission_image{
+        background-image: url(https://img.freepik.com/premium-vector/blue-green-circle-frame-abstract-flow-transparent-waves-shape-circle_206325-54.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 35%;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        opacity: 50%; 
+        top: 570px; 
+        left: 117px;   
+    }
     .missionText{
         padding-bottom: 15px;
     }
@@ -253,6 +267,12 @@
     .carausel_large{
         display: none;
     }
+    .return_element{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -312,6 +332,18 @@
         width: 65%;
         border-top-left-radius: 400px;
         
+    }
+    .back_mission_image{
+        background-image: url(https://img.freepik.com/premium-vector/blue-green-circle-frame-abstract-flow-transparent-waves-shape-circle_206325-54.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 375px;
+        width: 40%;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        opacity: 50%;
     }
     
     .sloganText {
@@ -485,9 +517,13 @@
     .carausel_large{
         display: block;
     }
-    .return_set{
-        text-align: center;
-       
+    
+    .return_element{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
     }
 }
 
@@ -498,14 +534,20 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    .back_mission_image{
+       
+        height: 380px;
+        width: 30%;
+        left: 50px;
+        
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .carousel_group{
         width: 50%;
-       
-        
+          
     }
+   
 }
