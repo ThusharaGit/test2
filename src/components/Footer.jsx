@@ -3,7 +3,8 @@ import './Footer.css'
 function Footer() {
  
     return (
-      <div>
+      <div className='footer_body'>
+        <div>
        <div className='footer_container'>
        <div className="logoImage_footer"></div>
         <div className='left'>
@@ -44,6 +45,7 @@ function Footer() {
             </div>
             <h5 className='copy_write_small'>Copywright © 2023. All rights reserved.</h5>
         </div>
+       </div>
        </div>
       </div>
     )

@@ -10,10 +10,13 @@ function Home({parentsComments}) {
       <div className="mainDiv ">
         <div className="sloganDiv">
           <h2 className="sloganText">EMPOWERING YOUTH</h2>
-          <p>... one paddle at a time!</p>
-          <button className="bookAtripBtn" onClick={() => navigate('Contact')}>BOOK A TRIP</button>
+          <p className='slogan_para'>... one paddle at a time!</p>
+          <button className="bookAtripBtn home_large" onClick={() => navigate('Contact')}>BOOK A TRIP</button>
         </div>
+        
         <div className="sloganimageDiv"></div>
+        <div className='back_image'></div>
+        <button className="bookAtripBtn home_small" onClick={() => navigate('Contact')}>BOOK A TRIP</button>
       </div>
 
       <div className="mainDiv ">
@@ -30,7 +33,7 @@ function Home({parentsComments}) {
       </div>
 
       <div className="specialDiv">
-        <h2>WHAT MAKES TRIPS SPECIAL</h2>
+        <h2 className='heading_and_comments'>WHAT MAKES TRIPS SPECIAL</h2>
         <div className="specialWrapper">
           <div className="special">
             <div id="specialImage1" className="specialImage"></div>
@@ -39,30 +42,47 @@ function Home({parentsComments}) {
           </div>
           <div className="special">
             <div id="specialImage2" className="specialImage"></div>
-            <h3 className="specialHeading">NATURE</h3>
-            <p className="specialText">An outdoor experience that fosters a deep appreciation for the environment  </p>
+            <h3 className="specialHeading special_small">NATURE</h3>
+            <p className="specialText special_small">An outdoor experience that fosters a deep appreciation for the environment  </p>
           </div>
           <div className="special">
             <div id="specialImage3" className="specialImage"></div>
-            <h3 className="specialHeading">LIFE SKILLS</h3>
-            <p className="specialText">Learn teamwork, communication, and resilience through kayaking challenges </p>
+            <h3 className="specialHeading special_small">LIFE SKILLS</h3>
+            <p className="specialText special_small">Learn teamwork, communication, and resilience through kayaking challenges </p>
           </div>
           <div className="special">
             <div id="specialImage4" className="specialImage"></div>
-            <h3 className="specialHeading">CONFIDENCE</h3>
-            <p className="specialText">Master kayaking to boost self-trust and readiness to tackle new adventures </p>
+            <h3 className="specialHeading special_small">CONFIDENCE</h3>
+            <p className="specialText special_small">Master kayaking to boost self-trust and readiness to tackle new adventures </p>
           </div>
         </div>
       </div>
 
-      <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+
+      <div className='carousel_group_around'>
+       <div className='carousel_group'>
+      <div style={{ maxWidth: 300, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
         <Carausel>
-          <img src="https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?cs=srgb&dl=pexels-inge-wallumr%C3%B8d-126407.jpg&fm=jpg" alt="" />
-          <img src="https://tractive.com/blog/wp-content/uploads/2021/11/section_image_cat_hunting_02.jpg" alt="" />
-          <img src="https://www.dailypaws.com/thmb/EI9JG7yhsQRB_Vy98q639tIzuzY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cat-green-eyes-1163267941-2000-7a2e68c4b2e34bd2b31573ce017f0583.jpg" alt="" />
+          <img src="https://cache.desktopnexus.com/thumbseg/2570/2570543-bigthumbnail.jpg" alt="" />
+          <img src="https://img.freepik.com/premium-photo/lake-with-canoes-sunset-background_865967-49131.jpg" alt="" />
+          <img src="https://img.freepik.com/premium-photo/boat-lake-with-sunset-background_865967-297784.jpg" alt="" />
         </Carausel>
 
       </div>
+      <div className='carausel_large' style={{ maxWidth: 300, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <Carausel>
+          <img src="https://img.freepik.com/premium-photo/lake-with-canoes-sunset-background_865967-49131.jpg" alt="" />
+          <img src="https://img.freepik.com/premium-photo/lake-with-canoes-sunset-background_865967-49131.jpg" alt="" />
+          <img src="https://img.freepik.com/premium-photo/boat-lake-with-sunset-background_865967-297784.jpg" alt="" />
+        </Carausel>
+
+      </div>
+      </div>
+      </div>
+
+
+
+
       <div className='comments'>
         <div className='heading_and_comments'>
         <h2 className='comments_heading'>WHAT PARENTS SAY ABOUT OUR PROJECT:</h2>
@@ -82,7 +102,16 @@ function Home({parentsComments}) {
           <h4>Ready to embark on an unforgettable adventure? </h4>
           <h4>Contact us today to book your child's spot on our next kayaking journey.</h4>
         </div>
+
+        <div className='return_set '>
+        <p className='retutn_text'>Return to the top</p>
+        <div className='return_btn'>Go</div>
+        </div>
+       
       </div>
+
+      
+      
       
     </div>
   )
